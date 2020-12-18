@@ -1,7 +1,7 @@
 {
-  "name": "movieql",
-  "version": "1.0.0",
-  "description": "movie API with graphQL",
+  "name": "hello_graphql",
+  "version": "0.0.0",
+  "description": "Studying graphQL",
   "main": "index.js",
   "repository": "https://github.com/KimJohnny/hello_graphQL",
   "author": "Hyojun Kim <johnny0614@unist.ac.kr>",
