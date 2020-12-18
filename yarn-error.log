@@ -1,0 +1,44 @@
+Arguments: 
+  /root/.volta/tools/image/node/14.15.1/bin/node /root/.volta/tools/image/yarn/1.22.10/bin/yarn.js init
+
+PATH: 
+  /root/.volta/tools/image/yarn/1.22.10/bin:/root/.volta/tools/image/node/14.15.1/bin:/root/.volta/bin:/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/root/.volta/tools/image/yarn/1.22.10/lib/cli.js:136216:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:875:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:345:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1144:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:309:12)
+
+npm manifest: 
+  {
+    "name": "movieQL",
+    "version": "1.0.0",
+    "description": "movie API with graphQL",
+    "main": "index.js",
+    "repository": "https://github.com/KimJohnny/hello_graphQL",
+    "author": "Hyojun Kim <johnny0614@unist.ac.kr>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
